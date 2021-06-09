@@ -1,0 +1,6 @@
+# vscode
+.vs/
+.vscode/
+
+# jupyter
+.ipynb_checkpoints/
