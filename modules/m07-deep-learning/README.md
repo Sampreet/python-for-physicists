@@ -2,6 +2,6 @@
 
 > Coming soon...
 
-[&#8592; \[Previous\] Module 06 - Machine Learning](../m06-machine-learning/) 
+[&#8592; \[Previous\] Module 06 - Machine Learning](../m06-machine-learning/README.md) 
 
-[\[Next\] Module 08 - Quantum Computing &#8594;](../m08-quantum-computing/)
+[\[Next\] Module 08 - Quantum Computing &#8594;](../m08-quantum-computing/README.md)

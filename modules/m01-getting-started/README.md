@@ -3,6 +3,7 @@
 > Stepping into a dark room? Let's take it one step at a time!
 
 ## Tutorials
+---
 
 ### [M01T01 - Setting Up Python](./m01t01-setting-up-python.md)
 
@@ -16,4 +17,4 @@ This tutorial walks through the minimal steps required to install Python via the
 
 ### [M01T05 - Python in VSCode](./m01t04-python-in-vscode.md)
 
-[\[Next\] Module 02 - Fundamentals of Python &#8594;](../m02-fundamentals-of-python/)
+[\[Next\] Module 02 - Fundamentals of Python &#8594;](../m02-fundamentals-of-python/README.md)

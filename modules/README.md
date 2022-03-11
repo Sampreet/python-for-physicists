@@ -1,6 +1,7 @@
 # Modules - Python for Physicists
 
-## [Module 01 - Getting Started](./m01-getting-started/)
+## [Module 01 - Getting Started](./m01-getting-started/README.md)
+---
 
 ### Contents
 
@@ -18,7 +19,8 @@ M01T05 | Python in VSCode | [link](./m01-getting-started/m01t05-python-in-vscode
 * Running Python scripts and IPython notebooks.
 * Using Visual Studio Code to run and debug.
 
-## [Module 02 - Fundamentals of Python](./m02-fundamentals-of-python/)
+## [Module 02 - Fundamentals of Python](./m02-fundamentals-of-python/README.md)
+---
 
 ### Contents
 
@@ -33,7 +35,8 @@ M02T06 | For and While Loops | | |
 M02T07 | List Comprehension | | |
 M02T08 | Functions and Lambda Expressions | | |
 
-## [Module 03 - Visualizing Data](./m03-visualizing-data/)
+## [Module 03 - Visualizing Data](./m03-visualizing-data/README.md)
+---
 
 ### Contents
 
@@ -43,7 +46,8 @@ M03T01 | Matplotlib | | |
 M03T02 | Plotly | | |
 M03T03 | Seaborn | | |
 
-## [Module 04 - Scientific Computing](./m04-scientific-computing/)
+## [Module 04 - Scientific Computing](./m04-scientific-computing/README.md)
+---
 
 ### Contents
 
@@ -54,19 +58,21 @@ M04T02 | SciPy | | |
 M04T03 | Pandas | | |
 M04T04 | SymPy | | |
 
-## [Module 05 - Best Practices](./m05-best-practices/)
+## [Module 05 - Best Practices](./m05-best-practices/README.md)
+---
 
 ### Contents
 
 Topic ID | Topic Name | Tutorial | Notebook | 
 --- | --- | --- | --- |
 M05T01 | Importing Modules | | |
-M05T02 | Objects and Classes | | |
-M05T03 | Handling Scenarios | | |
-M05T04 | Logging Events | | |
+M05T02 | Logging Events | | |
+M05T03 | Objects and Classes | | |
+M05T04 | Handling Scenarios | | |
 M05T05 | Parallelism | | |
 
-## [Module 06 - Machine Learning](./m06-machine-learning/)
+## [Module 06 - Machine Learning](./m06-machine-learning/README.md)
+---
 
 ### Contents
 
@@ -78,9 +84,9 @@ M06T03 | Classification | | |
 M06T04 | Clustering | | |
 M06T05 | Dimensionality Reduction | | |
 M06T06 | Support Vector Machines | | |
-M06T07 | Quantum Machine Learning | | |
 
-## [Module 07 - Deep Learning](./m07-deep-learning/)
+## [Module 07 - Deep Learning](./m07-deep-learning/README.md)
+---
 
 ### Contents
 
@@ -93,13 +99,9 @@ M07T04 | Feedforward Neural Networks | | |
 M07T05 | Recurrent Neural Networks | | |
 M07T06 | Boltzmann Machines and Autoencoders | | |
 M07T07 | Reinforcement Learning | | |
-M07T08 | Quantum Generative Adversarial Networks | | |
 
-### Key Takeaways
-
-* Modelling neural networks.
-
-## [Module 08 - Quantum Computing](./m08-quantum-computing/)
+## [Module 08 - Quantum Computing](./m08-quantum-computing/README.md)
+---
 
 ### Contents
 
@@ -116,4 +118,15 @@ M08T06 | Grover's Algorithm | | [link](./m08-quantum-computing/m08t06-algorithm-
 
 * Building quantum circuits and implementing quantum algorithms.
 * Executing quantum circuits on IBM's prototype quantum computers.
+
+## [Module 09 - Quantum ML](./m09-quantum-ml/README.md)
+---
+
+### Contents
+
+Topic ID | Topic Name | Tutorial | Notebook | 
+--- | --- | --- | --- |
+M09T01 | Quantum Machine Learning | | |
+M09T02 | Quantum Generative Adversarial Networks | | |
+
 

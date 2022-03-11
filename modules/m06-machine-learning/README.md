@@ -2,6 +2,6 @@
 
 > Coming soon...
 
-[&#8592; \[Previous\] Module 05 - Best Practices](../m05-best-practices/) 
+[&#8592; \[Previous\] Module 05 - Best Practices](../m05-best-practices/README.md) 
 
-[\[Next\] Module 07 - Deep Learning &#8594;](../m07-deep-learning/)
+[\[Next\] Module 07 - Deep Learning &#8594;](../m07-deep-learning/README.md)

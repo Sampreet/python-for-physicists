@@ -3,6 +3,7 @@
 > Enter the Quantum Realm!
 
 ## Classical Bits
+---
 
 Classical circuits rely on the binary occurances of `0`s and `1`s, known as ***bits***. 
 This means that at the machine level, the computer understands only a series of binary inputs. 
@@ -25,19 +26,32 @@ print(val_binary[2:])
 ```
 
 ## Quantum Bits
+---
 
 In the quantum regime, computation is performed using quantum states called ***qubits***, aka ***qbits***, an acronym for *quantum bits*. 
 Specifically, a qubit is a superposition of the orthonormal basis vectors of a two-level quantum mechanical system. 
 
 ### Basis Vectors
 
-The *computational basis* is defined by eigenstates `0` and `1` and their superposition state:
+The *computational basis* is defined by eigenstates $\ket{0}$ and $\ket{1}$ and their superposition state:
 
-![Computational Basis](./images/m08t01-computational-basis.png)
+$$
+\ket{0} = \begin{pmatrix} 1 \\ 0 \end{pmatrix} 
+\quad
+\ket{1} = \begin{pmatrix} 0 \\ 1 \end{pmatrix}
+\quad
+\ket{\psi} = c_{0} \ket{0} + c_{1} \ket{1} 
+$$
 
-The *standard basis* consists of the eigenstates `+` and `-` and their superposition state:
+The *standard basis* consists of the eigenstates $\ket{+}$ and $\ket{-}$ and their superposition state:
 
-![Standard Basis](./images/m08t01-standard-basis.png)
+$$
+\ket{+} = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 \\ 1 \end{pmatrix} 
+\quad
+\ket{-} = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 \\ -1 \end{pmatrix}
+\quad
+\ket{\psi} = c_{+} \ket{0} + c_{-} \ket{1} 
+$$
 
 ### Entanglement
 
@@ -46,14 +60,21 @@ It is a highly non-classical behaviour and has multiple applications in quantum 
 
 The generic combined wave-function of two states can be written as:
 
-![Combined State (General)](./images/m08t01-combined-state-general.png)
+$$
+\ket{\psi} = c_{00} \ket{0} \otimes \ket{0} + c_{01} \ket{0} \otimes \ket{1} + c_{10} \ket{1} \otimes \ket{0} + c_{11} \ket{1} \otimes \ket{1}
+$$
 
 If the participating states are separable, the combined wave-function can also be written as:
 
-![Combined State (Separable)](./images/m08t01-combined-state-separable.png)
+$$
+\ket{\psi} = \left( \alpha_{0} \ket{0} + \alpha_{0} \ket{1} \right) \otimes \left( \beta_{0} \ket{0} + \beta_{1} \ket{1} \right) \\
+\Rightarrow \ket{\psi} = \alpha_{0} \beta_{0} \ket{0} \otimes \ket{0} + \alpha_{0} \beta_{1} \ket{0} \otimes \ket{1} + \alpha_{1} \beta_{0} \ket{1} \otimes \ket{0} + \alpha_{1} \beta_{1} \ket{1} \otimes \ket{1}
+$$
 
 This gives us the condition for separability:
 
-![Separability Condition](./images/m08t01-separability-condition.png)
+$$
+c_{00} c_{11} = c_{01} c_{10}
+$$
 
 [\[Next\] M08T02 - Circuits and Gates &#8594;](./m08t02-circuits-and-gates.md)

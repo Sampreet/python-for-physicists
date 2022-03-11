@@ -13,6 +13,7 @@
 Together with the [IBM Quantum Experience](https://quantum-computing.ibm.com/), it can be used to work with quantum computers at a level of circuits, pulses, and algorithms.
 
 ## Installing the SDK
+---
 
 ### Setting Up the Python Environment
 
@@ -69,6 +70,7 @@ python -c "exec(\"import qiskit\nprint(qiskit.__version__)\")"
 ***When `qiskit.__version__` is called, the installed version of Terra is displayed in the output.***
 
 ## Implementing the SDK
+---
 
 ### IBM Quantum API Access Token
 

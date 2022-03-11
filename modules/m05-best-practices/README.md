@@ -2,6 +2,6 @@
 
 > Coming soon...
 
-[&#8592; \[Previous\] Module 04 - Scientific Computing](../m04-scientific-computing/) 
+[&#8592; \[Previous\] Module 04 - Scientific Computing](../m04-scientific-computing/README.md) 
 
-[\[Next\] Module 06 - Machine Learning &#8594;](../m06-machine-learning/)
+[\[Next\] Module 06 - Machine Learning &#8594;](../m06-machine-learning/README.md)

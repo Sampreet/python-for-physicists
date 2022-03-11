@@ -5,6 +5,7 @@
 [&#8592; \[Previous\] M01T04 - Jupyter Notebooks](./m01t04-jupyter-notebooks.md)
 
 ## Installing Visual Studio Code
+---
 
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/Microsoft/vscode?style=flat-square)](https://github.com/microsoft/vscode)
 
@@ -12,6 +13,7 @@
 Download the appropriate setup file for your operating system (Windows/Linux/MacOSX) from the [official page](https://code.visualstudio.com/download) and install. Easy!
 
 ## Installing Microsoft's Python Extension of VSCode
+---
 
 [![GitHub package.json version](https://img.shields.io/visual-studio-marketplace/v/ms-python.python?style=flat-square)](https://github.com/microsoft/vscode)
 [![GitHub package.json version](https://img.shields.io/visual-studio-marketplace/i/ms-python.python?style=flat-square)](https://github.com/microsoft/vscode)
