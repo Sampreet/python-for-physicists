@@ -30,17 +30,17 @@ Before installing Anaconda, update the *Debian* build-tools by executing:
 sudo apt-get install --upgrade build-essential
 ```
 
-Download the command line installer (`.sh`) for the latest version of Anaconda Python from the [individual product download page](https://www.anaconda.com/products/individual). Alternatively, you can download the installer from the terminal using `curl` (cURL) using the following commands:
+Download the command line installer (`.sh`) for the latest version of Anaconda Python from the [individual product download page](https://www.anaconda.com/products/individual). Alternatively, you can download the installer from the terminal using `curl` (cURL) using the following commands (select the lastest build from [the archive](https://repo.anaconda.com/archive), in this case `2024.10-1`):
 
 ```bash
 sudo apt-get install --upgrade curl
-curl -O https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
+curl -O https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
 ```
 
-Install the downloaded file by running the following command in the terminal, replacing `path/to/downloaded/file` with the complete path to the directory of the file along with the file name:
+Install the downloaded file by running the following command in the terminal, replacing `path-to-downloaded-file` with the complete path to the directory of the file along with the file name:
 
 ```bash
-bash path/to/downloaded/file.sh
+bash path-to-downloaded-file.sh
 ```
 
 ***Note: Linux usually comes with official Python distributions accessible through `python3` for version 3.x and `python` for version 2.x.*** 
@@ -83,22 +83,23 @@ Python 3.x.x
 It is useful to create individual virtual environments to run different versions of Python depending on the requirements of specific packages. 
 And the `conda` package provides an easy way to manage such virtual environments.
 
-To create a new environment (say, by the name `py38`) supporting a particular version of Python (say Python 3.8.x), use the following command:
+The default environment typically goes by the name `base`.
+To create a new environment (say, by the name `py312`) supporting a particular version of Python (say Python 3.8.x), use the following command:
 
 ```
-conda create --name py38 python=3.8
+conda create --name py312 python=3.12
 ```
 
 Once the creation is complete, you can activate the environment by:
 
 ```
-conda activate py38
+conda activate py312
 ```
 
 To remove the created environment, use the following command:
 
 ```
-conda env remove --name py38
+conda env remove --name py312
 ```
 
 ## Managing Anaconda Packages
